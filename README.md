@@ -13,10 +13,31 @@ The idea is to linearly transform the `y_pred` to change the coefficient of line
 
 # How to install
 ```bash
-pip install regression-bias-corrector
+pip install .
 ```
 
 # How to use
 ```python
-import 
+# Import Linear Bias corrector
+from regression_bias_correction import LinearBiasCorrector
+
+# Create instance of corrector
+corrector = LinearBiasCorrector()
+
+# Fit corrector on actual outcome variable and on predicted values of the model for train dataset
+# y_train - actual values
+# y_train_pred - predicted values
+corrector.fit(y_train, y_train_pred)
+
+# correct predicted values on test dataset
+# y_test_pred - predicted values by model on test dataset
+y_test_pred_unbiased = corrector.predict(y_test_pred)
+
+# y_test_pred_unbiased - unbiased predicted values on test
 ```
+
+# Authors
+Lobachevsky University
+
+1. Krivonosov Mikhail
+2. Khabarova Tatiana
