@@ -7,8 +7,8 @@ Package is aimed to correct regression fit by any machine learning model that un
 Now is implemeneted only linear correction for 1D case by the Linear Regression approach.
 
 The idea is to linearly transform the `y_pred` to change the coefficient of linear regression between `y_true` and `y_pred` to 1. It is corresponds to the diagonal on plane `y_true` and `y_pred` that means equal pace of increasing `y_pred` with increasing `y_true`. 
-- `y_true` -- actual values
-- `y_pred` -- predicted values
+- `y_true` - actual values
+- `y_pred` - predicted values
 
 
 # How to install
