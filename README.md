@@ -13,6 +13,7 @@ The idea is to linearly transform the `y_pred` to change the coefficient of line
 
 # How to install
 ```bash
+git clone https://github.com/mike-live/regression-bias-corrector.git
 pip install .
 ```
 
