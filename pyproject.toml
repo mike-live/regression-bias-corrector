@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "regression-bias-correction"
+version = "0.0.1"
+authors = [
+  { name="Mikhail Krivonosov", email="krivonosov@itmm.unn.ru" },
+]
+description = "Bias correction of regression ML models"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.15.0",
+    "scikit-learn",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mike-live/regression-bias-correction"
+"Bug Tracker" = "https://github.com/mike-live/regression-bias-correction/issues"
