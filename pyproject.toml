@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "regression-bias-correction"
+name = "regression-bias-corrector"
 version = "0.0.1"
 authors = [
   { name="Mikhail Krivonosov", email="krivonosov@itmm.unn.ru" },
@@ -21,5 +21,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/mike-live/regression-bias-correction"
-"Bug Tracker" = "https://github.com/mike-live/regression-bias-correction/issues"
+"Homepage" = "https://github.com/mike-live/regression-bias-corrector"
+"Bug Tracker" = "https://github.com/mike-live/regression-bias-corrector/issues"

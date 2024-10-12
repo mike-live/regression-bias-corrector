@@ -20,7 +20,7 @@ pip install .
 # How to use
 ```python
 # Import Linear Bias corrector
-from regression_bias_correction import LinearBiasCorrector
+from regression-bias-corrector import LinearBiasCorrector
 
 # Create instance of corrector
 corrector = LinearBiasCorrector()

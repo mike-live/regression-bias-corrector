@@ -4,7 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/regression-bias-correction
+      url: https://pypi.org/p/regression-bias-corrector
     permissions:
       id-token: write
     steps:
