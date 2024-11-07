@@ -29,7 +29,7 @@ pip install .
 ### Fit and predict
 ```python
 # Import Linear Bias corrector
-from regression-bias-corrector import LinearBiasCorrector
+from regression_bias_corrector import LinearBiasCorrector
 
 # Create instance of corrector
 corrector = LinearBiasCorrector()
