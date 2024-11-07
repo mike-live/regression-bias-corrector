@@ -12,12 +12,21 @@ The idea is to linearly transform the `y_pred` to change the coefficient of line
 
 
 # How to install
+
+### PyPI
+```bash
+pip install regression-bias-corrector
+```
+
+### From source
 ```bash
 git clone https://github.com/mike-live/regression-bias-corrector.git
 pip install .
 ```
 
 # How to use
+
+### Fit and predict
 ```python
 # Import Linear Bias corrector
 from regression-bias-corrector import LinearBiasCorrector
