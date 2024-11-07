@@ -46,7 +46,7 @@ loaded_corrector = LinearBiasCorrector.load('linear_corrector.yml')
 ```
 
 # Authors
-Lobachevsky University
+&copy; 2024 Lobachevsky University
 
-1. Krivonosov Mikhail
-2. Khabarova Tatiana
+* **Krivonosov Mikhail** - *Idea inventor* - [mike-live](https://github.com/mike-live)
+* **Khabarova Tatiana** - *Algorithm implementation* - [mike-live](https://github.com/enot9910)
