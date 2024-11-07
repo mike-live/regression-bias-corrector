@@ -1,10 +1,8 @@
 intercept_lr: -138.0899618765013
 model_name: linear_bias_correction
 rotation_lr: 1.9391069729848216
-version: 0.0.2.dev0+ga164560.d20241107
+version: 0.0.2
 version_tuple: !!python/tuple
 - 0
 - 0
 - 2
-- dev0
-- ga164560.d20241107
