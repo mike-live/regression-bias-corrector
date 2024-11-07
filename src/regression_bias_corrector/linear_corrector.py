@@ -44,3 +44,6 @@ class LinearBiasCorrector:
         }
         with open(path_to_yml, 'w') as fout:
             yaml.dump(model_dict, fout, default_flow_style=False)
+    
+    def __str__(self):
+        return f'Linear bias corrector: a={self.rotation_lr} b={self.intercept_lr}'
