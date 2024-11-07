@@ -37,6 +37,14 @@ y_test_pred_unbiased = corrector.predict(y_test_pred)
 # y_test_pred_unbiased - unbiased predicted values on test
 ```
 
+### Save and load
+
+```python
+corrector.save('linear_corrector.yml')
+
+loaded_corrector = LinearBiasCorrector.load('linear_corrector.yml')
+```
+
 # Authors
 Lobachevsky University
 
