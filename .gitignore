@@ -1,3 +1,6 @@
 venv/
 __pycache__/
 venv_test/
+
+# Automatically created version file
+_version.py
